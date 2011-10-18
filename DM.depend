@@ -1,17 +1,30 @@
 # depslib dependency file v1.0
-1318880567 source:/home/kpv/Рабочий стол/DM/DM/main.cpp
+1318972690 source:/home/kpv/Рабочий стол/DM/DM/main.cpp
 	<iostream>
+	"Point.h"
+	"vertices.h"
+	<vector>
+	<algorithm>
 
-1318879628 /home/kpv/Рабочий стол/DM/DM/include/Point.h
+1318971644 /home/kpv/Рабочий стол/DM/DM/include/Point.h
 
-1318882677 source:/home/kpv/Рабочий стол/DM/DM/src/Point.cpp
+1318971644 source:/home/kpv/Рабочий стол/DM/DM/src/Point.cpp
 	"Point.h"
 
 1318880691 source:/home/kpv/Рабочий стол/DM/DM/src/PPLG.cpp
 	"PPLG.h"
 
-1318881021 /home/kpv/Рабочий стол/DM/DM/include/PPLG.h
+1318944778 /home/kpv/Рабочий стол/DM/DM/include/PPLG.h
 	<map>
 	<vector>
 	"Point.h"
+
+1318972717 source:/home/kpv/Рабочий стол/DM/DM/src/vertices.cpp
+	"vertices.h"
+	<algorithm>
+	<functional>
+
+1318972717 /home/kpv/Рабочий стол/DM/DM/include/vertices.h
+	"Point.h"
+	<vector>
 

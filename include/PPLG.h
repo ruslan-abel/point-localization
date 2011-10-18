@@ -16,9 +16,6 @@ class PPLG
         virtual ~PPLG();
     protected:
     private:
-        map<Point,int> ids;
-        vector<Point> p;
-        vector <vector<int> > g;
 };
 
 #endif // PPLG_H

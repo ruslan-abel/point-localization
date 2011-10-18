@@ -3,6 +3,7 @@
 
 #include "Point.h"
 #include <vector>
+
 using std::vector;
 
 class Vertices
@@ -10,6 +11,9 @@ class Vertices
     public:
         Vertices();
         virtual ~Vertices();
+        Vertices& add(const Point&);
+        Vertices& del(const Point&);
+        void sort();
     protected:
     private:
         vector<Point> v;
