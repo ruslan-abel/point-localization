@@ -16,12 +16,12 @@ Point& Point::operator=(const Point & pt)
     return *this;
 }
 
-double Point::get_x(void)
+double Point::get_x(void) const
 {
     return _x;
 }
 
-double Point::get_y(void)
+double Point::get_y(void) const
 {
     return _y;
 }
@@ -31,17 +31,7 @@ bool Point::operator==(const Point& pt)
     return _x==pt._x&&_y==pt._y;
 }
 
-bool Point::operator<(const Point& pt)
+bool Point::operator<(const Point& p)
 {
-   return (_x<pt._x)||(_x==pt._x&&_y<pt._y);
-}
-
-bool rule_comp(Point& a,Point& b)
-{
-    return (a._x<b._x)||(a._x==b._x&&a._y<b._y);
-}
-
-bool operator<(const Point& a, const Point& b){ return (a._x<b._x)||(a._x==b._x&&a._y<b._y);}
-
-bool operator==(const Point& a, const Point& b){ return (a._x==b._x)||(a._y==b._y);
+    return (_x<p._x)||(_x==p._x&&_y<p._y);
 }

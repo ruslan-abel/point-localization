@@ -4,7 +4,6 @@
 
 using std::sort;
 using std::find;
-using std::less;
 
 
 Vertices::Vertices()
@@ -27,9 +26,20 @@ Vertices& Vertices::del(const Point& p)
     return *this;
 }
 
+Point& Vertices::operator[](int a)
+{
+    if(a<v.size()&&a>=0)
+        return v[a];
+}
+
+int Vertices::size()
+{
+    return v.size();
+}
+
 void Vertices::sort()
 {
-    //sort(v.begin(),v.end(),less<Point>());
+    //sort(v.begin(),v.end());
 }
 
 Vertices::~Vertices()
