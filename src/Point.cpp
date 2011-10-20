@@ -1,9 +1,5 @@
 #include "Point.h"
 
-Point::~Point()
-{
-}
-
 Point::Point(const Point & pt)
 {
     *this=pt;

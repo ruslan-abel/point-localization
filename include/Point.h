@@ -11,7 +11,6 @@ class Point
         double get_y(void)const;
         bool operator==(const Point&);
         bool operator<(const Point&);
-        virtual ~Point();
     private:
         double _x,_y;
 };

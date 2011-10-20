@@ -13,7 +13,6 @@ class PPLG
 {
     public:
         PPLG();
-        virtual ~PPLG();
     protected:
     private:
 };

@@ -1,18 +1,18 @@
 #include "vertices.h"
 #include <algorithm>
-#include <functional>
-
-using std::sort;
-using std::find;
-
 
 Vertices::Vertices()
 {
 }
 
+Vertices::Vertices(const std::vector<Point>& p)
+{
+    v=p;
+}
+
 Vertices& Vertices::add(const Point& p)
 {
-    vector<Point>::iterator i=find(v.begin(),v.end(),p);
+    std::vector<Point>::iterator i=find(v.begin(),v.end(),p);
     if(i==v.end())
         v.push_back(p);
     return *this;
@@ -20,7 +20,7 @@ Vertices& Vertices::add(const Point& p)
 
 Vertices& Vertices::del(const Point& p)
 {
-    vector<Point>::iterator i=find(v.begin(),v.end(),p);
+    std::vector<Point>::iterator i=find(v.begin(),v.end(),p);
     if(i!=v.end())
         v.erase(i);
     return *this;
@@ -37,11 +37,7 @@ int Vertices::size()
     return v.size();
 }
 
-void Vertices::sort_v()
+void Vertices::sort(const Predicat& a)
 {
-    sort(v.begin(),v.end(),Less());
-}
-
-Vertices::~Vertices()
-{
+    std::sort(v.begin(),v.end(),a);
 }

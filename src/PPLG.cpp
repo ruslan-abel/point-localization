@@ -4,8 +4,3 @@ PPLG::PPLG()
 {
     //ctor
 }
-
-PPLG::~PPLG()
-{
-    //dtor
-}

@@ -1,65 +1,46 @@
 # depslib dependency file v1.0
-1319031171 source:/home/kpv/Рабочий стол/DM/DM/main.cpp
+1319137403 source:/home/kpv/Рабочий стол/DM/DM/main.cpp
 	<iostream>
 	"Point.h"
 	"vertices.h"
+	"Some_predicat.h"
 	<vector>
 	<algorithm>
 
-1319016011 /home/kpv/Рабочий стол/DM/DM/include/Point.h
+1319134246 /home/kpv/Рабочий стол/DM/DM/include/Point.h
 
-1319025118 source:/home/kpv/Рабочий стол/DM/DM/src/Point.cpp
+1319134254 source:/home/kpv/Рабочий стол/DM/DM/src/Point.cpp
 	"Point.h"
 
-1318880691 source:/home/kpv/Рабочий стол/DM/DM/src/PPLG.cpp
+1319137390 source:/home/kpv/Рабочий стол/DM/DM/src/PPLG.cpp
 	"PPLG.h"
 
-1318944778 /home/kpv/Рабочий стол/DM/DM/include/PPLG.h
+1319137390 /home/kpv/Рабочий стол/DM/DM/include/PPLG.h
 	<map>
 	<vector>
 	"Point.h"
 
-1319025147 source:/home/kpv/Рабочий стол/DM/DM/src/vertices.cpp
+1319137343 source:/home/kpv/Рабочий стол/DM/DM/src/vertices.cpp
 	"vertices.h"
 	<algorithm>
-	<functional>
 
-1319035709 /home/kpv/Рабочий стол/DM/DM/include/vertices.h
+1319137343 /home/kpv/Рабочий стол/DM/DM/include/vertices.h
 	"Point.h"
+	"Predicat.h"
 	<vector>
 
-1319025174 source:/home/kpv/Рабочий стол/DM/DM/src/Edge.cpp
+1319137390 source:/home/kpv/Рабочий стол/DM/DM/src/Edge.cpp
 	"Edge.h"
 
-1319030913 /home/kpv/Рабочий стол/DM/DM/include/Edge.h
+1319137390 /home/kpv/Рабочий стол/DM/DM/include/Edge.h
 	<utility>
 
-1319119259 source:c:\dropbox\[project]dm-graph\src\pplg.cpp
-	"PPLG.h"
+1319135056 source:/home/kpv/Рабочий стол/DM/DM/src/Predicat.cpp
+	"Predicat.h"
 
-1319119259 c:\dropbox\[project]dm-graph\include\pplg.h
-	<map>
-	<vector>
+1319133698 /home/kpv/Рабочий стол/DM/DM/include/Predicat.h
 	"Point.h"
 
-1319119259 c:\dropbox\[project]dm-graph\include\point.h
-
-1319119259 source:c:\dropbox\[project]dm-graph\src\point.cpp
-	"Point.h"
-
-1319119850 source:c:\dropbox\[project]dm-graph\src\vertices.cpp
-	"vertices.h"
-	<algorithm>
-	<functional>
-
-1319119850 c:\dropbox\[project]dm-graph\include\vertices.h
-	"Point.h"
-	<vector>
-
-1319119791 source:c:\dropbox\[project]dm-graph\main.cpp
-	<iostream>
-	"Point.h"
-	"vertices.h"
-	<vector>
-	<algorithm>
+1319135079 /home/kpv/Рабочий стол/DM/DM/include/Some_predicat.h
+	"Predicat.h"
 
