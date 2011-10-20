@@ -1,15 +1,17 @@
 # depslib dependency file v1.0
-1319137403 source:/home/kpv/Рабочий стол/DM/DM/main.cpp
+1319142980 source:/home/kpv/Рабочий стол/DM/DM/main.cpp
 	<iostream>
 	"Point.h"
 	"vertices.h"
 	"Some_predicat.h"
+	"Edge.h"
 	<vector>
 	<algorithm>
+	<utility>
 
-1319134246 /home/kpv/Рабочий стол/DM/DM/include/Point.h
+1319142777 /home/kpv/Рабочий стол/DM/DM/include/Point.h
 
-1319134254 source:/home/kpv/Рабочий стол/DM/DM/src/Point.cpp
+1319142966 source:/home/kpv/Рабочий стол/DM/DM/src/Point.cpp
 	"Point.h"
 
 1319137390 source:/home/kpv/Рабочий стол/DM/DM/src/PPLG.cpp
@@ -29,13 +31,13 @@
 	"Predicat.h"
 	<vector>
 
-1319137390 source:/home/kpv/Рабочий стол/DM/DM/src/Edge.cpp
+1319141123 source:/home/kpv/Рабочий стол/DM/DM/src/Edge.cpp
 	"Edge.h"
 
-1319137390 /home/kpv/Рабочий стол/DM/DM/include/Edge.h
+1319141111 /home/kpv/Рабочий стол/DM/DM/include/Edge.h
 	<utility>
 
-1319135056 source:/home/kpv/Рабочий стол/DM/DM/src/Predicat.cpp
+1319143094 source:/home/kpv/Рабочий стол/DM/DM/src/Predicat.cpp
 	"Predicat.h"
 
 1319133698 /home/kpv/Рабочий стол/DM/DM/include/Predicat.h
@@ -43,4 +45,11 @@
 
 1319135079 /home/kpv/Рабочий стол/DM/DM/include/Some_predicat.h
 	"Predicat.h"
+
+1319143192 source:/home/kpv/Рабочий стол/DM/DM/src/Edge_List.cpp
+	"Edge_List.h"
+
+1319143555 /home/kpv/Рабочий стол/DM/DM/include/Edge_List.h
+	"Edge.h"
+	<list>
 

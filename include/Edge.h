@@ -6,10 +6,10 @@
 class Edge
 {
     public:
-        Edge();
-    protected:
+        Edge(const int,const int);
+        Edge& change(const int,const int);
     private:
-      //  pair<int,int> e;
+        std::pair<int,int> e;
 };
 
 #endif // EDGE_H

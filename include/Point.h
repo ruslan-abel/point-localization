@@ -9,6 +9,7 @@ class Point
         Point& operator=(const Point&);
         double get_x(void)const;
         double get_y(void)const;
+        double operator[](int);
         bool operator==(const Point&);
         bool operator<(const Point&);
     private:

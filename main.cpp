@@ -2,10 +2,12 @@
 #include "Point.h"
 #include "vertices.h"
 #include "Some_predicat.h"
+#include "Edge.h"
 
 
 #include <vector>
 #include <algorithm>
+#include <utility>
 
 using namespace std;
 
@@ -30,7 +32,7 @@ int main()
 
     v.sort(Compare_y());
 
-    cout<<v[0].get_x();
+    cout<<v[0][0];
 
     return 0;
 }

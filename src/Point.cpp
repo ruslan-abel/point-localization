@@ -31,3 +31,10 @@ bool Point::operator<(const Point& p)
 {
     return (_x<p._x)||(_x==p._x&&_y<p._y);
 }
+
+double Point::operator[](int x)
+{
+    if(x==0)
+        return get_x();
+    return get_y();
+}
