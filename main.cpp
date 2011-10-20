@@ -20,15 +20,19 @@ int main()
     Point D(15,31);
     Point E(2,41);
 
-   /* Vertices v;
-    v.add(A).add(B).add(C).add(A).add(B);*/
+    Vertices v;
+    v.add(A).add(B).add(C).add(A).add(B);
 
-   /* vector<Point> pt;
+    vector<Point> pt;
     pt.push_back(A);
     pt.push_back(B);
     pt.push_back(C);
 
-    cout<<pt[0].get_x()<<"\n"<<v.size()<<"\n";
-*/
+    v.sort_v();
+
+    cout<<v[0].get_x();
+
+    //cout<<pt[0].get_x()<<"\n"<<v.size()<<"\n";
+
     return 0;
 }

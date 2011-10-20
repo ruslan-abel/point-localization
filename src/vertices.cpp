@@ -37,9 +37,9 @@ int Vertices::size()
     return v.size();
 }
 
-void Vertices::sort()
+void Vertices::sort_v()
 {
-    //sort(v.begin(),v.end());
+    sort(v.begin(),v.end(),Less());
 }
 
 Vertices::~Vertices()

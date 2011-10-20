@@ -34,3 +34,32 @@
 1319030913 /home/kpv/Рабочий стол/DM/DM/include/Edge.h
 	<utility>
 
+1319119259 source:c:\dropbox\[project]dm-graph\src\pplg.cpp
+	"PPLG.h"
+
+1319119259 c:\dropbox\[project]dm-graph\include\pplg.h
+	<map>
+	<vector>
+	"Point.h"
+
+1319119259 c:\dropbox\[project]dm-graph\include\point.h
+
+1319119259 source:c:\dropbox\[project]dm-graph\src\point.cpp
+	"Point.h"
+
+1319119850 source:c:\dropbox\[project]dm-graph\src\vertices.cpp
+	"vertices.h"
+	<algorithm>
+	<functional>
+
+1319119850 c:\dropbox\[project]dm-graph\include\vertices.h
+	"Point.h"
+	<vector>
+
+1319119791 source:c:\dropbox\[project]dm-graph\main.cpp
+	<iostream>
+	"Point.h"
+	"vertices.h"
+	<vector>
+	<algorithm>
+
