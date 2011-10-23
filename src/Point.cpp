@@ -9,7 +9,13 @@ Point& Point::operator=(const Point & pt)
 {
     _x=pt._x;
     _y=pt._y;
+    num=pt.num;
     return *this;
+}
+
+int Point::get_num(void) const
+{
+    return num;
 }
 
 double Point::get_x(void) const
@@ -25,6 +31,13 @@ double Point::get_y(void) const
 bool Point::operator==(const Point& pt)
 {
     return _x==pt._x&&_y==pt._y;
+}
+
+Point& Point::operator-(const Point& pt)
+{
+    _x=pt.get_x()-_x;
+    _y=pt.get_y()-_y;
+    return *this;
 }
 
 bool Point::operator<(const Point& p)

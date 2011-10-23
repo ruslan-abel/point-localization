@@ -3,9 +3,11 @@
 #include "vertices.h"
 #include "Some_predicat.h"
 #include "Edge.h"
-
+#include "PPLG.h"
+#include "Edges.h"
 
 #include <vector>
+#include <map>
 #include <algorithm>
 #include <utility>
 
@@ -13,26 +15,22 @@ using namespace std;
 
 int main()
 {
-    Point A(10,53);
-    Point B(9,21);
-    Point C(1,21);
-    Point D(15,31);
-    Point E(2,41);
+    Point A(0,20,0);
+    Point B(10,15,1);
+    Point C(15,10,2);
+    Point D(5,5,3);
 
-    vector<Point> pt;
-    pt.push_back(A);
-    pt.push_back(B);
-    pt.push_back(C);
-    pt.push_back(D);
+    Vertices v;
+    v.add(A).add(B).add(C).add(D);
 
-    Vertices v(pt);
+    Edges e;
+    e.add(Edge(0,1)).add(Edge(1,3)).add(Edge(1,2)).add(Edge(2,3));
 
+    PPLG g(v,e);
 
-    v.add(A).add(B).add(C).add(A).add(B);
+    g.create_rsds();
 
-    v.sort(Compare_y());
-
-    cout<<v[0][0];
+    g.print_rsds();
 
     return 0;
 }

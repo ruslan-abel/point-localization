@@ -36,15 +36,18 @@
 		</Compiler>
 		<Unit filename="include/Edge.h" />
 		<Unit filename="include/Edge_List.h" />
+		<Unit filename="include/Edge_Node.h" />
+		<Unit filename="include/Edges.h" />
 		<Unit filename="include/PPLG.h" />
 		<Unit filename="include/Point.h" />
 		<Unit filename="include/Predicat.h" />
-		<Unit filename="include/Some_predicat" />
 		<Unit filename="include/Some_predicat.h" />
 		<Unit filename="include/vertices.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Edge.cpp" />
 		<Unit filename="src/Edge_List.cpp" />
+		<Unit filename="src/Edge_Node.cpp" />
+		<Unit filename="src/Edges.cpp" />
 		<Unit filename="src/PPLG.cpp" />
 		<Unit filename="src/Point.cpp" />
 		<Unit filename="src/Predicat.cpp" />

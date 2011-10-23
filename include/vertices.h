@@ -14,6 +14,7 @@ class Vertices
         Vertices& del(const Point&);
         void sort(const Predicat&);
         Point& operator[](int);
+        Point& vert(int);
         int size();
     protected:
     private:
