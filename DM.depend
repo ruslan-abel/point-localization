@@ -53,3 +53,58 @@
 	"Edge.h"
 	<list>
 
+1319455992 source:c:\graph\main.cpp
+	<iostream>
+	"Point.h"
+	"vertices.h"
+	"Some_predicat.h"
+	"Edge.h"
+	"PPLG.h"
+	"Edges.h"
+	<vector>
+	<map>
+	<algorithm>
+	<utility>
+
+1319455991 c:\graph\include\point.h
+
+1319455991 c:\graph\include\vertices.h
+	"Point.h"
+	"Predicat.h"
+	<vector>
+
+1319455991 c:\graph\include\predicat.h
+	"Point.h"
+
+1319455991 c:\graph\include\some_predicat.h
+	"Predicat.h"
+
+1319455991 c:\graph\include\edge.h
+	<utility>
+
+1319455991 c:\graph\include\pplg.h
+	<map>
+	<vector>
+	<cmath>
+	<iostream>
+	"Point.h"
+	"vertices.h"
+	"Edges.h"
+	"Edge_List.h"
+
+1319455991 c:\graph\include\edges.h
+	"Edge.h"
+	<vector>
+	<utility>
+	<algorithm>
+
+1319455991 c:\graph\include\edge_list.h
+	"Edge.h"
+	"Edge_Node.h"
+	<vector>
+
+1319456848 c:\graph\include\edge_node.h
+
+1319455992 source:c:\graph\src\edge.cpp
+	"Edge.h"
+
