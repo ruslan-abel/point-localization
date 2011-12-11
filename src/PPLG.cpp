@@ -141,3 +141,8 @@ void PPLG::print_rsds()
         std::cout<<i<<" "<<rsds[i].get_prev()<<" "<<rsds[i].get_next()<<std::endl;
     }
 }
+
+Vertices& PPLG::getVertices()
+{
+    return v;
+}

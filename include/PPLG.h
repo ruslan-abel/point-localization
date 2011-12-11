@@ -23,6 +23,9 @@ class PPLG
         int calc_first(const int& cur);
         int calc_second(const int& cur);
         double angle(const Point&,const Point&,const Point&,const Point&) const;
+
+        Vertices& getVertices(); // ссылку на объект Vertices надо бы возвращать константной.
+                                    //Но так как Vertices::sort() пока не const, то нельзя
     private:
         Vertices v;
         Edges e;

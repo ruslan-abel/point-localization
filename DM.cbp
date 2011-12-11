@@ -7,8 +7,8 @@
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/DM" prefix_auto="1" extension_auto="1" />
-				<Option object_output="obj/Debug/" />
+				<Option output="bin\Debug\DM" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
@@ -16,8 +16,8 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/DM" prefix_auto="1" extension_auto="1" />
-				<Option object_output="obj/Release/" />
+				<Option output="bin\Release\DM" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
@@ -34,24 +34,28 @@
 			<Add directory="src" />
 			<Add directory="include" />
 		</Compiler>
-		<Unit filename="include/Edge.h" />
-		<Unit filename="include/Edge_List.h" />
-		<Unit filename="include/Edge_Node.h" />
-		<Unit filename="include/Edges.h" />
-		<Unit filename="include/PPLG.h" />
-		<Unit filename="include/Point.h" />
-		<Unit filename="include/Predicat.h" />
-		<Unit filename="include/Some_predicat.h" />
-		<Unit filename="include/vertices.h" />
+		<Unit filename="ToDo.txt" />
+		<Unit filename="include\Edge.h" />
+		<Unit filename="include\Edge_List.h" />
+		<Unit filename="include\Edge_Node.h" />
+		<Unit filename="include\Edges.h" />
+		<Unit filename="include\PPLG.h" />
+		<Unit filename="include\Point.h" />
+		<Unit filename="include\Predicat.h" />
+		<Unit filename="include\SlabDecomposition.h" />
+		<Unit filename="include\Some_predicat.h" />
+		<Unit filename="include\vertices.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/Edge.cpp" />
-		<Unit filename="src/Edge_List.cpp" />
-		<Unit filename="src/Edge_Node.cpp" />
-		<Unit filename="src/Edges.cpp" />
-		<Unit filename="src/PPLG.cpp" />
-		<Unit filename="src/Point.cpp" />
-		<Unit filename="src/Predicat.cpp" />
-		<Unit filename="src/vertices.cpp" />
+		<Unit filename="readme.txt" />
+		<Unit filename="src\Edge.cpp" />
+		<Unit filename="src\Edge_List.cpp" />
+		<Unit filename="src\Edge_Node.cpp" />
+		<Unit filename="src\Edges.cpp" />
+		<Unit filename="src\PPLG.cpp" />
+		<Unit filename="src\Point.cpp" />
+		<Unit filename="src\Predicat.cpp" />
+		<Unit filename="src\SlabDecomposition.cpp" />
+		<Unit filename="src\vertices.cpp" />
 		<Unit filename="version.h">
 			<Option target="Release" />
 		</Unit>
@@ -63,6 +67,7 @@
 				<Scheme minor_max="10" build_max="0" rev_max="0" rev_rand_max="10" build_times_to_increment_minor="100" />
 				<Settings autoincrement="1" date_declarations="1" do_auto_increment="0" ask_to_increment="0" language="C++" svn="0" svn_directory="" header_path="version.h" />
 				<Changes_Log show_changes_editor="0" app_title="released version %M.%m.%b of %p" changeslog_path="ChangesLog.txt" />
+				<Code header_guard="VERSION_H" namespace="AutoVersion" prefix="" />
 			</AutoVersioning>
 		</Extensions>
 	</Project>
