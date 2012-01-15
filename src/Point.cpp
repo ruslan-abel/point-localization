@@ -13,17 +13,17 @@ Point& Point::operator=(const Point & pt)
     return *this;
 }
 
-int Point::get_num(void) const
+const int Point::get_num(void) const
 {
     return num;
 }
 
-double Point::get_x(void) const
+const double Point::get_x(void) const
 {
     return _x;
 }
 
-double Point::get_y(void) const
+const double Point::get_y(void) const
 {
     return _y;
 }
@@ -40,12 +40,24 @@ Point& Point::operator-(const Point& pt)
     return *this;
 }
 
+Point& Point::operator+(const Point& pt)
+{
+    _x=pt.get_x()+_x;
+    _y=pt.get_y()+_y;
+    return *this;
+}
+
+Point& Point::set_point(const Point& pt)
+{
+    *this=pt;
+}
+
 bool Point::operator<(const Point& p)
 {
     return (_x<p._x)||(_x==p._x&&_y<p._y);
 }
 
-double Point::operator[](int x)
+const double Point::operator[](int x)
 {
     if(x==0)
         return get_x();
