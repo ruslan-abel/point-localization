@@ -20,6 +20,11 @@ class Edges
         Edge& operator[](int);
         //количество рёбер
         const int size();
+
+        //эмуляция итерации
+        std::vector<Edge>::iterator begin();
+        std::vector<Edge>::iterator end();
+
     private:
         //множество рёбер
         std::vector<Edge> edges;

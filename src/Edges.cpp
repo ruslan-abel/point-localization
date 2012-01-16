@@ -30,3 +30,13 @@ Edge& Edges::operator[](int a)
      if(a<edges.size()&&a>=0)
         return edges[a];
 }
+
+std::vector<Edge>::iterator Edges::begin()
+{
+    return edges.begin();
+}
+
+std::vector<Edge>::iterator Edges::end()
+{
+    return edges.end();
+}
