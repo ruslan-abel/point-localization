@@ -30,7 +30,6 @@ class SlabDecomposition
         int top, bottom;
         // заданная точка
         Point pointToLocate;
-
 };
 
 #endif // SLABDECOMPOSITION_H

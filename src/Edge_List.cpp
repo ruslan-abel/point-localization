@@ -35,7 +35,7 @@ Edge_Node& Edge_List::operator[](int a)
         return list[a];
 }
 
-int Edge_List::size()
+const int Edge_List::size()
 {
     return list.size();
 }

@@ -2,7 +2,6 @@
 
 Edges::Edges()
 {
-
 }
 
 Edges& Edges::add(const Edge& e)
@@ -21,7 +20,7 @@ Edges& Edges::del(const Edge& e)
     return *this;
 }
 
-int Edges::size()
+const int Edges::size()
 {
     return edges.size();
 }

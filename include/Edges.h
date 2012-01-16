@@ -6,17 +6,22 @@
 #include <utility>
 #include <algorithm>
 
-
+//рёбра
 class Edges
 {
     public:
+        //конструктор
         Edges();
+        //добавить ребро
         Edges& add(const Edge&);
+        //удалить заданное ребро
         Edges& del(const Edge&);
+        //перегрузка оператора индексаации
         Edge& operator[](int);
-        int size();
-    protected:
+        //количество рёбер
+        const int size();
     private:
+        //множество рёбер
         std::vector<Edge> edges;
 };
 

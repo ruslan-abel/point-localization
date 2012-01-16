@@ -46,7 +46,7 @@ Point& Vertices::operator[](int a)
     };
 }
 
-int Vertices::size()
+const int Vertices::size()
 {
     return v.size();
 }
@@ -54,4 +54,14 @@ int Vertices::size()
 void Vertices::sort(const Predicat& a)
 {
     std::sort(v.begin(),v.end(),a);
+}
+
+std::vector<Point>::iterator Vertices::begin()
+{
+    return v.begin();
+}
+
+std::vector<Point>::iterator Vertices::end()
+{
+    return v.end();
 }
